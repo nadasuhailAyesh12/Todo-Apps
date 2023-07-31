@@ -1,12 +1,5 @@
 const initialState = {
-    todos: [{
-        id: 0,
-        text: 'nada'
-    },
-    {
-        id: 1,
-        text: 'sajed'
-    }]
+    todos: []
 }
 
 const ACTION_CONSTANTS = {
