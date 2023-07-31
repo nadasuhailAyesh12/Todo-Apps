@@ -1,0 +1,141 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  padding-top: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  margin: 0 auto;
+  box-shadow: 0 0 4px black;
+}
+
+section {
+  position: relative;
+  width: 300px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.list {
+  margin-bottom: 20px;
+}
+
+.title-primary {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.title-secondary {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  padding: 5px 5px;
+}
+
+.input-label {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: yellowgreen;
+}
+
+span.left-side {
+  display: flex;
+  width: 70%;
+}
+
+input.text {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  word-break: break-all;
+  border: none;
+  background-color: transparent;
+  color:black
+}
+
+.btn-add {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  background-color: #2a7e43;
+  color: #fff;
+  width:29px;
+  height: 29px;
+}
+
+.fa-check {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 10px;
+  flex-shrink: 0;
+  width: 29px;
+  height: 29px;
+  text-align: center;
+}
+
+.fa-times {
+  color: red;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  flex-shrink: 0;
+  background-color: red;
+  color: #fff;
+  width: 29px;
+  text-align: center;
+  height: 29px;
+}
+
+.fa-pen,.fa-save {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-left: 5px;
+  flex-shrink: 0;
+  width: 29px;
+  height: 29px;
+  text-align: center;
+}
+
+/* Classes manipulated by JS*/
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+
+}
+
+.checked {
+  text-decoration: line-through;
+   
+}
+

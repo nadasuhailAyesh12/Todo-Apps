@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <main>
+            <!-- title -->
+            <h1 class="title-primary">Todo List</h1>
+
+            <!-- add todo -->
+            <section>
+                <label for="todo" class="input-label">Add New</label>
+                <input type="text" name="todo" id="todoInput" placeholder="type here..." />
+                <button class="btn btn-add"><i class="fas fa-plus"></i></button>
+            </section>
+
+            <!-- active todos -->
+            <section class="active-todos">
+                <h2 class="title-secondary">Todos</h2>
+                <h3 class="hide warning">
+                    you don’t have any todos,please add one
+                </h3>
+                <ul class="list list-active"></ul>
+                <!-- this is how the todo item should be -->
+                <!-- <li class="list-item">
+                        <span class="left-side">
+                            <button class="btn btn-check">
+                                <i class="fas fa-check fa-check-active"></i>
+                            </button><span class="text">Walk the d
+                            og</span>
+                            <textarea cols="25" rows="3" class="li-text-edit"></textarea>
+                        </span>
+                        <span class="right-side">
+                            <button class="btn btn-edit">
+                                <i class="fas fa-pen"></i>
+                            </button>
+                            <button class="btn btn-remove">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </span>
+                    </li> -->
+                <!--  end of one todo item -->
+            </section>
+        </main>
+
+        <script src="main.js"></script>
+        <script src="https://kit.fontawesome.com/45bf171390.js" crossorigin="anonymous"></script>
+    </body>
+
+    </html>
+</body>
+
+</html>
